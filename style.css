@@ -1,0 +1,52 @@
+:root {
+    --pink: #ea7f8e;
+    --light-color: #c18b16;
+}
+
+button {
+    width: auto;
+    border-radius: 16px;
+    height: 7vh;
+    background-color: var(--pink);
+    color: white;
+    border: blue 1px solid;
+    padding: 5px 10px;
+    font-size: larger;
+    margin: auto;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.fact-container {
+    display: flex;
+    justify-content: center;
+}
+
+#catFact {
+    border: var(--light-color) 1px solid;
+    border-radius: 16px;
+    padding: 5px;
+    max-width: 500px;
+}
+
+
+@media (max-width: 768px) {
+    button {
+        width: 40vw;
+        margin-bottom: 10%;
+    }
+
+    #catFact {
+        
+    }
+}
+
+button:hover {
+    color: blue;
+    background-color: white;
+
+}
