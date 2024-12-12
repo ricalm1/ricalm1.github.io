@@ -1,19 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
 :root {
     --pink: #ea7f8e;
     --light-color: #c18b16;
 }
 
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
 button {
     width: auto;
     border-radius: 16px;
-    height: 7vh;
-    background-color: var(--pink);
     color: white;
     border: blue 1px solid;
-    padding: 5px 10px;
+    padding: 10px 20px;
     font-size: larger;
-    margin: auto;
+    margin: 8vh;
+    background-color: var(-- #ea7f8e);
 
+}
+
+.footer-image {
+    width: 100%;
+    height: auto;
+  
 }
 
 .button-container {
@@ -24,6 +35,7 @@ button {
 .fact-container {
     display: flex;
     justify-content: center;
+    margin: 10vh;
 }
 
 #catFact {
@@ -40,13 +52,6 @@ button {
         margin-bottom: 10%;
     }
 
-    #catFact {
-        
-    }
+   
 }
 
-button:hover {
-    color: blue;
-    background-color: white;
-
-}
