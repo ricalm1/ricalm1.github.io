@@ -10,7 +10,7 @@
 body {
     font-family: "IBM Plex Sans", sans-serif;
     background-color: var(--back-color);
-  
+
 }
 
 button {
@@ -28,13 +28,13 @@ button {
     height: auto;
     display: flex;
     justify-content: center;
-    
+
 }
 
-img{
+img {
     max-width: 100%;
     object-fit: contain;
-    
+
 }
 
 .button-container {
@@ -42,16 +42,15 @@ img{
     justify-content: center;
 }
 
-button:hover{
+button:hover {
     background-color: var(--hover-color);
     color: var(--text-box);
 }
 
-.fact-container {   
+.fact-container {
     display: flex;
     justify-content: center;
-    
-    
+
 }
 
 #catFact {
@@ -66,9 +65,8 @@ button:hover{
 @media (max-width: 768px) {
     button {
         width: 40vw;
-        margin-bottom:2vh;
+        margin-bottom: 2vh;
     }
 
-   
-}
 
+}
