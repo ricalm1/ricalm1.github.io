@@ -12,7 +12,6 @@ body {
 button {
     width: auto;
     border-radius: 16px;
-    color: white;
     border: blue 1px solid;
     padding: 10px 20px;
     font-size: larger;
@@ -32,7 +31,7 @@ button {
     justify-content: center;
 }
 
-.fact-container {
+.fact-container {   
     display: flex;
     justify-content: center;
     margin: 10vh;
